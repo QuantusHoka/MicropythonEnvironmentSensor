@@ -1,0 +1,23 @@
+{
+    "devicename": "Starting_Name",
+    "wifiAPs": [
+        {"station": "Home", "wifiSSID": "HokasHouse", "wifiPassword": "Vsd5h#5e9"},
+        {"station": "RAM", "wifiSSID": "RamDMC", "wifiPassword": "Vsd5h#5e9"},
+        {"station": "Work", "wifiSSID": "HVACWireless", "wifiPassword": "4036521300"}
+    ],
+    "mqtthost": "hollowhills.ddns.me",
+    "mqttport": 9883,
+    "mqttroottopic": "environment",
+    "mqttcommupsubtopic": "commup",
+    "mqttcommdownsubtopic": "commdown",
+    "mqttalerttopic": "alert",
+    "mqttdatasubtopic": "data",
+    "mqttconfigtopic": "configup",
+    "mqttcleansession": false,
+    "iotupdateinterval": 5,
+    "temphighalarm": 28,
+    "templowalarm": 0,
+    "humhighalarm": 90,
+    "sensoroffset": 1.5,
+    "hysteresis": 0.01
+}
